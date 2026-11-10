@@ -1,0 +1,299 @@
+{
+    "users": {
+        "SUDEEP_23": {
+            "password": "SUDEEP",
+            "bookings": [
+                "WEEUICWU",
+                "BK104007OTVF",
+                "BK1082250LC9",
+                "BK116974FN6E"
+            ]
+        },
+        "YASH_93": {
+            "password": "YASH",
+            "bookings": [
+                "WR4D6G3S",
+                "BUJAPECK",
+                "BK125222EKLA"
+            ],
+            "email": "YASHDIKE14@GMAIL.COM",
+            "phone": "9664138680"
+        }
+    },
+    "admins": {
+        "admin": "admin123"
+    },
+    "movies": {
+        "MOV001": {
+            "name": "Avatar 3",
+            "language": "English",
+            "duration": "180 min",
+            "genre": "Sci-Fi/Action",
+            "rating": "\u2b50 8.5/10",
+            "release_date": "2025-12-19",
+            "poster_path": ""
+        },
+        "MOV002": {
+            "name": "Pathaan Returns",
+            "language": "Hindi",
+            "duration": "150 min",
+            "genre": "Action/Thriller",
+            "rating": "\u2b50 8.2/10",
+            "release_date": "Not set",
+            "poster_path": ""
+        },
+        "MOV003": {
+            "name": "The Kashmir Files 2",
+            "language": "Hindi",
+            "duration": "170 min",
+            "genre": "Drama",
+            "rating": "\u2b50 8.7/10",
+            "release_date": "Not set",
+            "poster_path": ""
+        },
+        "MOV004": {
+            "name": "Spider man",
+            "language": "English",
+            "duration": "2",
+            "genre": "action",
+            "release_date": "Not set",
+            "poster_path": ""
+        },
+        "MOV005": {
+            "name": "Iron man",
+            "language": "English",
+            "duration": "3",
+            "genre": "action",
+            "release_date": "Not set",
+            "poster_path": ""
+        },
+        "MOV006": {
+            "name": "Avengers",
+            "language": "English,Hindi",
+            "duration": "3",
+            "genre": "Action,",
+            "release_date": "Not set",
+            "poster_path": ""
+        },
+        "MOV007": {
+            "name": "interstellar",
+            "language": "english",
+            "duration": "2",
+            "genre": "sci-fi",
+            "release_date": "Not set",
+            "poster_path": ""
+        }
+    },
+    "cities": {
+        "CITY001": "Mumbai",
+        "CITY002": "Delhi",
+        "CITY003": "Bangalore",
+        "CITY004": "pune",
+        "CITY005": "indore",
+        "CITY006": "kolkata",
+        "CITY007": "jaipur"
+    },
+    "theaters": {
+        "TH001": {
+            "name": "PVR Phoenix",
+            "city_id": "CITY001",
+            "screen": "Screen 1",
+            "capacity": 100
+        },
+        "TH002": {
+            "name": "INOX Metropolitan",
+            "city_id": "CITY001",
+            "screen": "Screen 2",
+            "capacity": 120
+        },
+        "TH003": {
+            "name": "PVR Select City",
+            "city_id": "CITY002",
+            "screen": "Screen 1",
+            "capacity": 150
+        },
+        "TH004": {
+            "name": "MIRAJ ",
+            "city_id": "CITY004",
+            "screen": "2",
+            "capacity": 120
+        }
+    },
+    "showtimes": {
+        "SHOW001": {
+            "movie_id": "MOV001",
+            "theater_id": "TH001",
+            "time": "10:00 AM",
+            "slot": "Morning",
+            "price": 200,
+            "capacity": 100,
+            "booked_seats": [
+                "E4",
+                "A10",
+                "B8",
+                "F7",
+                "G6",
+                "H5",
+                "D3",
+                "D1",
+                "F2"
+            ]
+        },
+        "SHOW002": {
+            "movie_id": "MOV001",
+            "theater_id": "TH001",
+            "time": "2:00 PM",
+            "slot": "Afternoon",
+            "price": 250,
+            "capacity": 100,
+            "booked_seats": [
+                "E5",
+                "E6",
+                "E7"
+            ]
+        },
+        "SHOW003": {
+            "movie_id": "MOV002",
+            "theater_id": "TH002",
+            "time": "6:00 PM",
+            "slot": "Evening",
+            "price": 300,
+            "capacity": 120,
+            "booked_seats": [
+                "C4",
+                "D5",
+                "C6",
+                "C5",
+                "B5",
+                "F3",
+                "G3",
+                "F2",
+                "G2"
+            ]
+        }
+    },
+    "bookings": {
+        "WEEUICWU": {
+            "booking_id": "WEEUICWU",
+            "user": "SUDEEP_23",
+            "show_id": "SHOW003",
+            "seats": [
+                "C4",
+                "D5",
+                "C6",
+                "C5",
+                "B5"
+            ],
+            "amount": 1500,
+            "date": "2025-12-29 19:22:57",
+            "status": "confirmed"
+        },
+        "WR4D6G3S": {
+            "booking_id": "WR4D6G3S",
+            "user": "YASH_93",
+            "show_id": "SHOW003",
+            "seats": [
+                "F3",
+                "G3",
+                "F2",
+                "G2"
+            ],
+            "amount": 1200,
+            "date": "2025-12-30 16:07:06",
+            "status": "confirmed"
+        },
+        "BUJAPECK": {
+            "booking_id": "BUJAPECK",
+            "user": "YASH_93",
+            "show_id": "SHOW001",
+            "seats": [
+                "E4"
+            ],
+            "amount": 200,
+            "date": "2025-12-30 16:40:21",
+            "status": "confirmed"
+        },
+        "E0S88BBI": {
+            "booking_id": "E0S88BBI",
+            "user": "SUDEEP_23",
+            "show_id": "SHOW002",
+            "seats": [
+                "J6",
+                "J9",
+                "J7",
+                "J8"
+            ],
+            "amount": 1000,
+            "date": "2025-12-30 17:57:46",
+            "status": "cancelled",
+            "refund": "full",
+            "cancelled_at": "2025-12-31 01:12:17"
+        },
+        "YJO1RS3O": {
+            "booking_id": "YJO1RS3O",
+            "user": "SUDEEP_23",
+            "show_id": "SHOW002",
+            "seats": [
+                "J2",
+                "J4",
+                "J3"
+            ],
+            "amount": 750,
+            "date": "2025-12-30 18:03:03",
+            "status": "cancelled",
+            "refund": "full",
+            "cancelled_at": "2025-12-31 01:16:20"
+        },
+        "BK104007OTVF": {
+            "booking_id": "BK104007OTVF",
+            "user": "SUDEEP_23",
+            "show_id": "SHOW001",
+            "seats": [
+                "A10",
+                "B8"
+            ],
+            "amount": 400,
+            "date": "2025-12-30 19:43:27",
+            "status": "confirmed"
+        },
+        "BK1082250LC9": {
+            "booking_id": "BK1082250LC9",
+            "user": "SUDEEP_23",
+            "show_id": "SHOW001",
+            "seats": [
+                "F7",
+                "G6",
+                "H5"
+            ],
+            "amount": 600,
+            "date": "2025-12-30 20:53:45",
+            "status": "confirmed"
+        },
+        "BK116974FN6E": {
+            "booking_id": "BK116974FN6E",
+            "user": "SUDEEP_23",
+            "show_id": "SHOW002",
+            "seats": [
+                "E5",
+                "E6",
+                "E7"
+            ],
+            "amount": 750,
+            "date": "2025-12-30 23:19:34",
+            "status": "confirmed"
+        },
+        "BK125222EKLA": {
+            "booking_id": "BK125222EKLA",
+            "user": "YASH_93",
+            "show_id": "SHOW001",
+            "seats": [
+                "D3",
+                "D1",
+                "F2"
+            ],
+            "amount": 600,
+            "date": "2025-12-31 01:37:02",
+            "status": "confirmed"
+        }
+    }
+}
